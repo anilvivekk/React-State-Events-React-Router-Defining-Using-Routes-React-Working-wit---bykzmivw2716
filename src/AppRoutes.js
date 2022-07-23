@@ -7,11 +7,11 @@ import { NotFound } from './Pages/NotFound';
 export const AppRoutes = () => {
     return (
         <Routes>
-            <Route>
+            
                 <Route path='/' element={<Index />}></Route>
                 <Route path="/home" element={<Home />}></Route>
                 <Route path='*' element={<NotFound />}></Route>
-            </Route>
+            
         </Routes>
     )
 }
