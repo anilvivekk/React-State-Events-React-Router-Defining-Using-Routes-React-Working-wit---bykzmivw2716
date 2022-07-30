@@ -7,8 +7,8 @@ export const NavBar = () =>{
         <>
         <nav>
             <ul>
-                <li className='index-link'><NavLink to="/">Index Page</NavLink></li>
-                <li className='home-link'><NavLink to="/home">Home Page</NavLink></li>
+                <li> <NavLink className='index-link' to="/">Index Page</NavLink></li>
+                <li ><NavLink className='home-link' to="/home">Home Page</NavLink></li>
             </ul>
         </nav>
         </>
